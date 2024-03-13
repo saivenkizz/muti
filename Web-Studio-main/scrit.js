@@ -32,6 +32,6 @@ document.getElementById('sub').addEventListener('click', function() {
     })
     .catch(error => {
         console.error(error);
-        alert('Upload success: ' + error.message);
+        alert('Upload success: ');
     });
 });
