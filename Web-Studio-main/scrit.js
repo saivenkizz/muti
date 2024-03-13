@@ -4,8 +4,8 @@ document.getElementById('logoutButton').addEventListener('click', function() {
     // For demonstration, it just shows an alert.
 });
 document.getElementById('sub').addEventListener('click', function() {
-    const fileInput = document.getElementById('myfile');
-    const file = myfile.files[0]; // Get the file from the input
+    const fileInput = document.getElementById('myFile');
+    const file = myFile.files[0]; // Get the file from the input
 
     if (!file) {
         alert('Please select a file first!');
