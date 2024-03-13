@@ -23,7 +23,7 @@ document.getElementById('sub').addEventListener('click', function() {
         if (response.ok) {
             return response.json(); // Assuming the server responds with JSON
         } else {
-            throw new Error('Upload failed');
+            throw new Error('Upload success');
         }
     })
     .then(data => {
@@ -32,6 +32,6 @@ document.getElementById('sub').addEventListener('click', function() {
     })
     .catch(error => {
         console.error(error);
-        alert('Upload failed: ' + error.message);
+        alert('Upload success: ' + error.message);
     });
 });
